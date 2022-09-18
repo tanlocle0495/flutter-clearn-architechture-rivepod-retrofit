@@ -38,11 +38,22 @@ dependencies:
     sdk: flutter
   #Handle Network
   freezed: ^2.1.0+1
+  retrofit: ^3.0.1+1
+  flutter_gen: ^4.3.0
+  #Handle image
+  flutter_svg: ^1.0.3
+  #Handle collection:
+  collection: ^1.16.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+  flutter_gen_runner: ^4.3.0
+
+# Handle for location of file when generator.
+flutter_gen:
+  output: lib/gen/ # Optional (default: lib/gen/)
 
 flutter:
   uses-material-design: true
